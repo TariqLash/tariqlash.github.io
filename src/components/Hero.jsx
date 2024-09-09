@@ -17,7 +17,7 @@ const Hero = () => {
                             <img src={portrait} />
                         </div>
                     </div>
-                    <h1 className="mb-5 text-8xl font-bold">Hi, I'm Tariq</h1>
+                    <h1 className="mb-5 text-6xl xl:text-8xl font-bold">Hi, I'm Tariq</h1>
 
                     <p className="mb-5 px-8 text-xl max-w-xl">
                         A web developer passionate about creating innovative digital solutions that make a difference. Let’s build something great together!
