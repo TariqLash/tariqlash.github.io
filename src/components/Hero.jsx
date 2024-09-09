@@ -1,4 +1,6 @@
 import React from 'react'
+import portrait from '../assets/portrait.png'
+
 
 const Hero = () => {
     return (
@@ -12,14 +14,13 @@ const Hero = () => {
                 <div className="">
                     <div className="avatar mb-5">
                         <div className="rounded-3xl">
-                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            <img src={portrait} />
                         </div>
                     </div>
-                    <h1 className="mb-5 text-5xl font-bold">Hi, I'm Tariq!</h1>
+                    <h1 className="mb-5 text-8xl font-bold">Hi, I'm Tariq</h1>
 
-                    <p className="mb-5 px-8">
-                        I’m a web developer passionate about building innovative digital solutions that make a difference. 
-                        Let’s create something great together!
+                    <p className="mb-5 px-8 text-xl max-w-xl">
+                        A web developer passionate about creating innovative digital solutions that make a difference. Let’s build something great together!
                     </p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
