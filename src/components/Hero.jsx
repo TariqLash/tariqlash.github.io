@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="hero-content text-neutral-content text-center">
                 <div className="">
                     <div className="avatar mb-5">
-                        <div className="rounded-full">
+                        <div className="rounded-3xl">
                             <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                         </div>
                     </div>
