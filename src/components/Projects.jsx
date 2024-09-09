@@ -5,7 +5,7 @@ import jjjpainting from '../assets/jjjpainting.png'
 
 const Projects = () => {
   return (
-    <div className='p-3 flex justify-center bg-red-100'>
+    <div className='p-3 flex flex-wrap justify-center bg-red-100'>
       <div className="card m-3 p-1 bg-base-100 w-96 shadow-xl">
         <figure>
           <img
@@ -14,7 +14,7 @@ const Projects = () => {
         </figure>
         <div className="card-body">
           <a className="card-title">JJJ Painting</a>
-          <p>A responsive landing page I built for a local painting company</p>
+          <p>A responsive landing page created for a local painting company.</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">More Info</button>
           </div>

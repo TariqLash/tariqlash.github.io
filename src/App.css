@@ -17,3 +17,7 @@ body{
   width: 55%;
   max-width: 20rem;
 }
+
+.card{
+    min-width: 20rem;
+}
