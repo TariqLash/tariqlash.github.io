@@ -12,6 +12,9 @@ body{
   font-style: normal;
 }
 
+.roboto{
+  font-family: "Roboto";
+}
 
 .avatar{
   width: 55%;
@@ -20,4 +23,8 @@ body{
 
 .card{
     min-width: 20rem;
+}
+
+.externalIcon{
+  width: 0.8rem;
 }

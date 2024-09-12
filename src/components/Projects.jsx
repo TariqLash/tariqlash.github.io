@@ -16,7 +16,7 @@ const Projects = () => {
         </figure>
         <div className="card-body">
           <a href='https://www.jjjpainting.com/services' className="text-4xl cursor-pointer underline">JJJ Painting</a>
-          <p>A responsive landing page created for a local painting company.</p>
+          <p className='roboto'>A responsive landing page created for a local painting company.</p>
           <div className="flex items-center justify-between ">
             <div className='h-full flex items-center text-3xl'>
               <SiReact className='mx-1 rounded-full p-1' />
@@ -35,7 +35,7 @@ const Projects = () => {
         </figure>
         <div className="card-body">
           <a href='https://coffee-app888.netlify.app/' className="text-4xl cursor-pointer underline">Buy Me A Coffee</a>
-          <p>A simple donation website using blockchain smart contracts for secure, transparent transactions.</p>
+          <p className='roboto'>A simple donation website using blockchain smart contracts for secure, transparent transactions.</p>
           <div className="flex items-center justify-between ">
             <div className='h-full flex items-center text-3xl'>
               <SiReact className='mx-1 rounded-full p-1' />

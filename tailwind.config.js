@@ -5,9 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   plugins: [
-    require('daisyui'),
+    require('daisyui'), require('@tailwindcss/forms'),
   ],
   daisyui: {
-    themes: ["synthwave"],
+    themes: ["dark"],
   },
 }

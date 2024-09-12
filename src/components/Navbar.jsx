@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -27,17 +29,17 @@ const Navbar = () => {
             <li><a>Github</a></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl">Tariq Lashley</a>
+        <button className="btn btn-outline border-0 text-4xl">Tariq Lashley</button>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu text-lg menu-horizontal px-1">
+        <ul className="menu text-lg menu-horizontal px-1 ">
           <li><a>Projects</a></li>
           <li><a>About</a></li>
-          <li><a>Github</a></li>
+          <li><a>Github<FaExternalLinkAlt className='externalIcon'/></a></li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-lg">Contact Me</a>
+        <button className="btn btn-outline border-0 text-xl">Contact Me</button>
       </div>
     </div>
   )
