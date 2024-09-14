@@ -24,7 +24,7 @@ const Hero = () => {
                     <p className="mb-5 px-8 text-xl max-w-xl roboto">
                         A web developer passionate about creating innovative digital solutions that make a difference. Let’s build something great together!
                     </p>
-                    <button className="btn btn-outline btn-accent border-0 rounded-lg text-5xl"><IoIosArrowDown/></button>
+                    <button className="btn btn-outline btn-primary border-0 rounded-lg text-5xl"><IoIosArrowDown/></button>
                 </div>
             </div>
         </div>
