@@ -77,8 +77,9 @@ html {
 
 .divider{
   margin: 0px;
-  padding: 1rem;
-  background: #000;
+  padding: 0.5rem;
+  color: red;
+  background-color: black;
 }
 
 .formBackdrop{
