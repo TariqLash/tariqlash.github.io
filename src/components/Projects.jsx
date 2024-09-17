@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card m-3 p-1 bg-base-300 w-96 shadow-xl">
+        <div className="card m-3 p-1 bg-base-300 w-5/6 sm:w-96 shadow-xl">
           <figure>
             <img
               src={buyMeCoffee}
@@ -44,7 +44,7 @@ const Projects = () => {
                 <SiTailwindcss className='mx-1 rounded-full p-1' />
                 <SiSolidity className='mx-1 rounded-full p-1' />
               </div>
-              <a href='https://github.com/TariqLash/buyMeCoffee' className="btn btn-primar size-10 rounded-full text-2xl"><SiGithub /></a>
+              <a href='https://github.com/TariqLash/buyMeCoffee' className="btn btn-primary rounded-full text-2xl"><SiGithub /></a>
             </div>
           </div>
         </div>
