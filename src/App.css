@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 html {
+  margin: 0px;
+  padding: 0px;
   scroll-behavior: smooth;
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+
 }
 
 .navbar{
@@ -86,3 +97,9 @@ html {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
 }
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

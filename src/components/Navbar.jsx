@@ -29,7 +29,7 @@ const Navbar = () => {
             <li><a href='https://github.com/TariqLash'>Github</a></li>
           </ul>
         </div>
-        <button className="btn btn-outline border-0 text-3xl">Tariq Lashley</button>
+        <a href='/' className="btn btn-outline border-0 text-xl sm:text-3xl">Tariq Lashley</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu text-lg menu-horizontal px-1 ">
@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href='#contact' className="btn btn-primary btn-outline  border-0 text-xl">Contact Me</a >
+        <a href='#contact' className="btn btn-primary btn-outline  border-0 text-lg sm:text-xl">Contact Me</a >
       </div>
     </div>
   )

@@ -11,15 +11,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='quantico'>
+    <div className='quantico '>
       <Navbar />
       <Hero />
-      <div className='divider'></div>
       <Projects />
-      <div className='divider'></div>
 
       <About/>
-      <div className='divider'></div>
 
       {/* <Contact/> */}
       <Form/>
