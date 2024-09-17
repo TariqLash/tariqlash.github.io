@@ -7,10 +7,10 @@ import { SiReact, SiSolidity, SiTailwindcss, SiGithub } from "react-icons/si";
 
 const Projects = () => {
   return (
-    <div id='projects' className='flex flex-col justify-center items-center py-12 projectContainer w-full'>
+    <div id='projects' className='flex flex-col justify-center items-center py-12 projectContainer'>
       <h1 className='sectionHeading text-6xl'>Projects</h1>
-      <div className='flex flex-wrap justify-center'>
-        <div className="card m-3 p-1 bg-base-300 w-96 shadow-xl">
+      <div className='flex flex-wrap justify-center w-full'>
+        <div className="card m-3 p-1 bg-base-300 w-5/6 sm:w-96 shadow-xl">
           <figure>
             <img
               src={jjjpainting}
