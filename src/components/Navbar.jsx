@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 p-5 absolute new-amsterdam-regular">
+    <div className="navbar bg-base-100 p-5  quantico">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,22 +24,22 @@ const Navbar = () => {
           <ul
             tabIndex={0}
             className="menu text-lg menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Projects</a></li>
-            <li><a>About</a></li>
-            <li><a>Github</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#about'>About</a></li>
+            <li><a href='https://github.com/TariqLash'>Github</a></li>
           </ul>
         </div>
-        <button className="btn btn-outline border-0 text-4xl">Tariq Lashley</button>
+        <button className="btn btn-outline border-0 text-3xl">Tariq Lashley</button>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu text-lg menu-horizontal px-1 ">
-          <li><a>Projects</a></li>
-          <li><a>About</a></li>
-          <li><a>Github<FaExternalLinkAlt className='externalIcon'/></a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='https://github.com/TariqLash'>Github<FaExternalLinkAlt className='externalIcon'/></a></li>
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-primary btn-outline  border-0 text-xl">Contact Me</button>
+        <a href='#contact' className="btn btn-primary btn-outline  border-0 text-xl">Contact Me</a >
       </div>
     </div>
   )
