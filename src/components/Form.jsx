@@ -21,6 +21,10 @@ const Form = () => {
             console.log('FAILED...', error.text);
           },
         );
+        firstname.value = '';
+        lastname.value = '';
+        email.value = '';
+        message.value = '';
     };
 
     return (
@@ -30,14 +34,14 @@ const Form = () => {
                 <div className='flex flex-col space-y-3'>
                     <h1 className='text-xl'>Full Name</h1>
                     <div className='grid grid-cols-2 gap-3 justify-between'>
-                        <input name='firstname' type="text" placeholder="First Name" className="input input-bordered w-full roboto" />
-                        <input name='lastname' type="text" placeholder="Last Name" className="input input-bordered w-full roboto" />
+                        <input id='firstname' name='firstname' type="text" placeholder="First Name" className="input input-bordered w-full roboto" />
+                        <input id='lastname' name='lastname' type="text" placeholder="Last Name" className="input input-bordered w-full roboto" />
                     </div>
                     <h1 className='text-xl'>Email</h1>
-                    <input name='email' type="email" placeholder="Email" className="input input-bordered w-full roboto" />
+                    <input id='email' name='email' type="email" placeholder="Email" className="input input-bordered w-full roboto" />
                     <h1 className='text-xl'>Message</h1>
 
-                    <textarea name='message' className="textarea textarea-bordered h-40 sm:h-56 roboto" placeholder="Message"></textarea>
+                    <textarea id='message' name='message' className="textarea textarea-bordered h-40 sm:h-56 roboto" placeholder="Message"></textarea>
                     <input type="submit" className='btn btn-primary w-1/2 mx-auto text-xl' value="Submit" />
 
                     {/* <input type="submit" className='btn btn-primary w-1/2 mx-auto text-xl'>Submit</input> */}

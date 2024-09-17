@@ -17,10 +17,10 @@ const Projects = () => {
               alt="Coffee themed website" />
           </figure>
           <div className="card-body">
-            <a href='https://www.jjjpainting.com/services' className="text-4xl cursor-pointer underline">JJJ Painting</a>
+            <a href='https://www.jjjpainting.com/services' className="text-3xl cursor-pointer underline">JJJ Painting</a>
             <p className='roboto'>A responsive landing page created for a local painting company.</p>
             <div className="flex items-center justify-between ">
-              <div className='h-full flex items-center text-3xl'>
+              <div className='h-full flex items-center text-2xl sm:text-3xl'>
                 <SiReact className='mx-1 rounded-full p-1' />
                 <SiTailwindcss className='mx-1 rounded-full p-1' />
               </div>
@@ -36,10 +36,10 @@ const Projects = () => {
               alt="Coffee themed website" />
           </figure>
           <div className="card-body">
-            <a href='https://coffee-app888.netlify.app/' className="text-4xl cursor-pointer underline">Buy Me A Coffee</a>
+            <a href='https://coffee-app888.netlify.app/' className="text-3xl cursor-pointer underline">Buy Me A Coffee</a>
             <p className='roboto'>A simple donation website using blockchain smart contracts for secure, transparent transactions.</p>
             <div className="flex items-center justify-between ">
-              <div className='h-full flex items-center text-3xl'>
+              <div className='h-full flex items-center text-2xl sm:text-3xl'>
                 <SiReact className='mx-1 rounded-full p-1' />
                 <SiTailwindcss className='mx-1 rounded-full p-1' />
                 <SiSolidity className='mx-1 rounded-full p-1' />
