@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='quantico '>
+    <div className='vt323 appContainer'>
       <Navbar />
       <Hero />
       <Projects />
