@@ -28,9 +28,9 @@ const Form = () => {
     };
 
     return (
-        <div id='contact' className='formContainer flex flex-col  items-center h-screen p-3'>
-            <h1 className='sectionHeading text-6xl my-8'>Contact</h1>
-            <form ref={form} onSubmit={sendEmail} className="contactForm card bg-base-300 sm:w-5/6 shadow-xl p-8 ">
+        <div id='contact' className='formContainer flex flex-col  items-center'>
+            <h1 className='sectionHeading'>Contact</h1>
+            <form ref={form} onSubmit={sendEmail} className="rounded-none card bg-base-300 w-full shadow-xl p-8 ">
                 <div className='flex flex-col space-y-3'>
                     <h1 className='text-xl'>Full Name</h1>
                     <div className='grid grid-cols-2 gap-3 justify-between'>
@@ -42,10 +42,10 @@ const Form = () => {
                     <h1 className='text-xl'>Message</h1>
 
                     <textarea id='message' name='message' className="textarea textarea-bordered h-40 sm:h-56 roboto" placeholder="Message"></textarea>
-                    <input type="submit" className='btn btn-primary w-1/2 mx-auto text-xl' value="Submit" />
 
                     {/* <input type="submit" className='btn btn-primary w-1/2 mx-auto text-xl'>Submit</input> */}
                 </div>
+                <input type="submit" className='btn btn-outline btn-error w-1/2 mx-auto mt-8 text-xl' value="Submit" />
             </form>
         </div>
 

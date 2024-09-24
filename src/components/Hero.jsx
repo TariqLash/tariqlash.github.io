@@ -6,11 +6,12 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Hero = () => {
     return (
-        <div className="flex flex-col justify-center h-screen bg-base-300 p-24 text-white landing  font-extrabold">
+        <div id='home' className="flex flex-col justify-center
+        xl:h-screen p-12 md:p-24 text-white landing">
             <div className=''>
                 <div className="">
                     <p className='heroText'>
-                        CREATIVE DEVELOPER SPECIALIZING IN <span className='text-lime-500'>BLOCKCHAIN</span> SOLUTIONS
+                        CREATIVE DEVELOPER SPECIALIZING IN <span className='heroSpan'>BLOCKCHAIN</span> SOLUTIONS
                     </p>
                 </div>
             </div>
