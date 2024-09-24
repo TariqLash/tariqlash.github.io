@@ -9,6 +9,10 @@ h1{
 
 }
 
+.redFont{
+  color: red;
+}
+
 input, textarea{
   border-radius: 0px !important;
 }
@@ -35,9 +39,11 @@ html {
   font-family: "Roboto";
 }
 
-.hero{
-  height: 90vh;
+.landing{
+  background-image: url("/src/assets/backgrounds/bg-1.jpg");
+  background-size: cover;
 }
+
 .heroSpan{
   color: red;
 }
@@ -45,6 +51,8 @@ html {
 
 .navIcons{
   display: none;
+  border-radius: 0rem;
+  width: 100%;
 }
 .navLinks{
   transition: all 0.2s;
@@ -52,7 +60,7 @@ html {
   padding-left: 2rem;
 }
 .navEffect:hover{
-  color: red;
+  color: white;
   scale: 1.1;
   margin-left: 0.5rem;
 }
@@ -78,12 +86,13 @@ html {
 /* mobile/tablet ----------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
 .heroText{
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 0.65;
 }
 .menu{
-  width: 6rem;
+  width: 4rem;
   padding: 0rem;
+  height: 100%;
 }
 .navLinks{
   display: none;
@@ -92,29 +101,84 @@ html {
   display: flex;
   justify-content: center;
   height: 3.5rem;
+  width: 100%;
 }
 .navIcon{
-  width: 3.5rem;
   height: 2rem;
+  width: 2rem;
 }
 .navEffect:hover{
   scale: 1.0;
   margin-left: 0rem;
+  background-color: red;
+  color: black;
 }
 .appContainer{
-  margin-left: 6.5rem;
+  margin-left: 4rem;
 }
 .sectionHeading{
   width: 100%;
-  height: 6rem;
-  padding-left: 3rem;
+  height: 5.5rem;
+  padding: 2rem;
   background-color: black;
   display: flex;
   align-items: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .nav{
   border-left: 0.5rem solid red;
-
 }
+.logo{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 85%;
+}
+.landing {
+  height: 32vh;
+  padding: 3rem;
+}
+}
+
+/* medium -----------------------------------------------------------------------------------*/
+@media (min-width: 768px) {
+  .landing {
+      height: 50vh;
+      padding: 3rem;
+  }
+  .heroText{
+    font-size: 5rem;
+  }
+  .navLinks{
+    display: none;
+  }
+  .navIcons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+    height: 3.4rem;
+  }
+  .navIcon{
+    height: 2rem;
+    width: 2rem;
+  }
+  .navEffect:hover{
+    scale: 1.0;
+    margin-left: 0rem;
+    background-color: red;
+    color: black;
+  }
+  .logo{
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  .sectionHeading{
+    width: 100%;
+    height: 4rem;
+    padding: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+  }
 }

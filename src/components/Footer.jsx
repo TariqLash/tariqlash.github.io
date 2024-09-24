@@ -1,13 +1,13 @@
 import React from 'react'
-import logo from '../assets/logo.png';
+import logoGray from '../assets/logoGray.png';
 
 const Footer = () => {
   return (
     <footer className="footer bg-black text-neutral-content p-10">
   <aside>
-   <img src={logo} alt="" className='w-24'/>
+   <img src={logoGray} alt="" className='w-20'/>
     <p>
-      ACME Industries Ltd.
+      Tariq Lashley Ltd.
       <br />
       Providing reliable tech since 2023
     </p>

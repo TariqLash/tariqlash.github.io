@@ -29,7 +29,7 @@ const Form = () => {
 
     return (
         <div id='contact' className='formContainer flex flex-col  items-center'>
-            <h1 className='sectionHeading'>Contact</h1>
+            <h1 className='sectionHeading'>CONTACT</h1>
             <form ref={form} onSubmit={sendEmail} className="rounded-none card bg-base-300 w-full shadow-xl p-8 ">
                 <div className='flex flex-col space-y-3'>
                     <h1 className='text-xl'>Full Name</h1>

@@ -8,22 +8,22 @@ import { SiReact, SiSolidity, SiTailwindcss, SiGithub } from "react-icons/si";
 const Projects = () => {
   return (
     <div id='projects' className='flex flex-col justify-center items-center projectContainer'>
-      <h1 className='sectionHeading '>Projects</h1>
-      <div className='flex justify-normal w-full'>
-        <div className='projectCard w-1/2 md:w-1/3 2xl:w-1/4'>
+      <h1 className='sectionHeading '>LATEST WORK</h1>
+      <div className='flex flex-col sm:flex-row justify-normal w-full'>
+        <a href='https://jjjpainting.com/' target='_blank' className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
           <img
             src={jjjpainting}
             alt="Painting themed website"
-            className='w-full'
+            className='w-full' 
           />
-        </div>
-        <div className='projectCard w-1/2 md:w-1/3 2xl:w-1/4'>
+        </a>
+        <a href='https://coffee-app888.netlify.app/' target='_blank' className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
           <img
             src={buyMeCoffee}
             alt="Coffee themed website"
             className='w-full'
           />
-        </div>
+        </a>
         {/* <div className="card m-3 p-1 bg-base-300 w-5/6 sm:w-96 shadow-xl">
           <figure>
             <img
