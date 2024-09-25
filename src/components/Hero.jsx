@@ -11,7 +11,7 @@ const Hero = () => {
             <div className=''>
                 <div className="">
                     <p className='heroText'>
-                        CREATIVE DEVELOPER SPECIALIZING IN <span className='heroSpan'>BLOCKCHAIN</span> SOLUTIONS
+                        CREATIVE WEBSITE DEVELOPER FOCUSED ON <span className='heroSpan'>BLOCKCHAIN</span> SOLUTIONS
                     </p>
                 </div>
             </div>

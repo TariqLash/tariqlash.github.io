@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png';
+import logoFull from '../assets/logoFull.png';
 
 import { House, CircleUserRound, GalleryVerticalEnd, Send, CircleDollarSign, Linkedin, Github } from 'lucide-react';
 
@@ -9,46 +10,55 @@ const Navbar = () => {
     <div className='fixed flex items-start left-0 bg-black h-screen z-50 nav'>
       <ul className="menu px-0">
         <div className='flex justify-center mt-2 w-full'>
-          <img src={logo} alt="Tariq Lashley Logo" className='logo w-12'/>
+        <img src={logo} alt="Tariq Lashley Logo" className='logo w-12'/>
+        <img src={logoFull} alt="Tariq Lashley Logo" className='logoFull'/>
 
         </div>
-        <li className='mt-4 w-full'>
+        <li className='mt-4 w-full lg:w-fit'>
           <a href='#home' className='text-7xl navEffect navLinks'>
             HOME
           </a>
           <a href='#home' className='navEffect navIcons'>            
           <House className='navIcon'/></a>
         </li>
-        <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
+        {/* <li className='mt-4 w-full lg:w-fit'>
+          <a href='#about' className='text-7xl navEffect navLinks'>
            ABOUT
           </a>
-          <a id='' className='navEffect navIcons'><CircleUserRound className='navIcon'/></a>
-        </li>
-        <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
+          <a href='#about' className='navEffect navIcons'><CircleUserRound className='navIcon'/></a>
+        </li> */}
+        <li className='mt-4 w-full lg:w-fit'>
+          <a href='#projects' className='text-7xl navEffect navLinks'>
            WORK
           </a>
           <a href='#projects' className='navEffect navIcons'><GalleryVerticalEnd className='navIcon'/></a>
         </li>
-        <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
+        {/* <li className='mt-4 w-full lg:w-fit'>
+          <a href='#pricing' className='text-7xl navEffect navLinks'>
+           PRICING
+          </a>
+          <a href='#pricing' className='navEffect navIcons'><CircleDollarSign className='navIcon'/></a>
+        </li> */}
+        <li className='mt-4 w-full lg:w-fit'>
+          <a href='#contact' className='text-7xl navEffect navLinks'>
            CONTACT
           </a>
           <a href='#contact' className='navEffect navIcons'><Send className='navIcon'/></a>
         </li>
+        
+        <h2 className='mt-16 mb-8 redFont cursor-default navLinks navFollow'>FOLLOW:</h2>
+        <a href='https://www.linkedin.com/in/tariqlashley' target="_blank" className='text-7xl navLinks'>
+          <Linkedin className='followLinks redFont' />
+        </a>
+        <a href='https://github.com/TariqLash' target="_blank" className='text-7xl navLinks'>
+          <Github className='followLinks redFont' />
+        </a>
+        
+
         <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
-           PRICING
-          </a>
-          <a href='#contact' className='navEffect navIcons'><CircleDollarSign className='navIcon'/></a>
-        </li>
-        <h2 className='m-auto text-4xl mt-20 redFont cursor-default navLinks'>FOLLOW:</h2>
-        <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
-           LinkedIn
-          </a>
-          <a href='https://www.linkedin.com/in/tariqlashley' target="_blank" className='navIcons'><Linkedin className='navIcon redFont'/></a>
+          
+        <a  href='https://github.com/TariqLash' target="_blank" className='navEffect navIcons'><Github className='navIcon redFont'/></a>
+        <a href='https://www.linkedin.com/in/tariqlashley' target="_blank" className='navIcons'><Linkedin className='navIcon redFont'/></a>
         </li>
         {/* <li className='mt-4 w-full'>
           <a className='text-7xl navEffect navLinks'>

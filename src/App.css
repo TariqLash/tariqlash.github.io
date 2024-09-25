@@ -8,7 +8,9 @@ h1{
   scroll-behavior: smooth;
 
 }
-
+.logoFull{
+  display: none;
+}
 .redFont{
   color: red;
 }
@@ -34,7 +36,9 @@ html {
   font-weight: 400;
   font-style: normal;
 }
-
+.formContainer{
+  max-width: 60rem;
+}
 .roboto{
   font-family: "Roboto";
 }
@@ -43,12 +47,9 @@ html {
   background-image: url("/src/assets/backgrounds/bg-1.jpg");
   background-size: cover;
 }
-
 .heroSpan{
-  color: red;
+  /* color: red; */
 }
-
-
 .navIcons{
   display: none;
   border-radius: 0rem;
@@ -64,9 +65,8 @@ html {
   scale: 1.1;
   margin-left: 0.5rem;
 }
-
-.menu{
-  width: 21vw;
+.nav{
+  border-left: 0.5rem solid red;
 }
 .heroText{
   font-size: 12rem;
@@ -78,15 +78,22 @@ html {
   height: 8rem;
   padding-left: 6rem;
   background-color: black;
+  color: whitesmoke;
   display: flex;
   align-items: center;
   font-size: 5rem;
+
+}
+
+.followLinks{
+  margin-bottom: 1rem;
 }
 
 /* mobile/tablet ----------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
 .heroText{
   font-size: 3rem;
+  font-weight: bold;
   line-height: 0.65;
 }
 .menu{
@@ -97,6 +104,7 @@ html {
 .navLinks{
   display: none;
 }
+
 .navIcons{
   display: flex;
   justify-content: center;
@@ -104,8 +112,8 @@ html {
   width: 100%;
 }
 .navIcon{
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .navEffect:hover{
   scale: 1.0;
@@ -114,19 +122,12 @@ html {
   color: black;
 }
 .appContainer{
-  margin-left: 4rem;
+  margin-left: 4.5rem;
 }
 .sectionHeading{
-  width: 100%;
   height: 5.5rem;
-  padding: 2rem;
-  background-color: black;
-  display: flex;
-  align-items: center;
+  padding: 1.5rem;
   font-size: 2.5rem;
-}
-.nav{
-  border-left: 0.5rem solid red;
 }
 .logo{
   margin-top: 1rem;
@@ -134,16 +135,22 @@ html {
   width: 85%;
 }
 .landing {
-  height: 50vh;
-  padding: 3rem;
+  height: 45vh;
+  padding: 1.5rem;
 }
 }
 
 /* medium -----------------------------------------------------------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .landing {
       height: 50vh;
       padding: 3rem;
+  }
+  .menu{
+    width: 12rem;
+  }
+  .appContainer{
+    margin-left: 12.5rem;
   }
   .heroText{
     font-size: 5rem;
@@ -151,6 +158,7 @@ html {
   .navLinks{
     display: none;
   }
+ 
   .navIcons{
     display: flex;
     justify-content: center;
@@ -176,9 +184,101 @@ html {
     width: 100%;
     height: 4rem;
     padding: 3rem;
-    background-color: black;
-    display: flex;
-    align-items: center;
     font-size: 3rem;
   }
+}
+
+
+/* large ------------------------------------------------------------ */
+@media (min-width: 1020px){
+  .heroText{
+    font-size: 7rem;
+    margin-left: 2rem;
+
+  }
+  .landing {
+    height: 71.5vh;
+    padding: 3rem;
+}
+.sectionHeading{
+  height: 7.5rem;
+  font-size: 4rem;
+  padding-left: 5rem;
+
+}
+.menu{
+  height: 100%;
+  width: 12rem;
+}
+.appContainer{
+  margin-left: 12.5rem;
+}
+ .navIcons, .logo{
+  display: none;
+ }
+ .logoFull{
+  display: flex;
+  padding: 1.5rem;
+ }
+ .navLinks{
+  display: flex;
+  border-radius: 0rem;
+  font-size: 2rem;
+ }
+ .navEffect:hover{
+  color: black;
+  scale: 1.1;
+  margin-left: 0.5rem;
+}
+.logo{
+  margin-top: 2.2rem;
+  margin-bottom: 3.8rem;
+}
+.followLinks{
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-bottom: 0px;
+}
+.followLinks:hover{
+  color: white;
+}
+.formContainer{
+  padding: 1rem;
+}
+.btn-error{
+  margin-top: 2rem !important;
+}
+}
+
+/* extra large --------------------------------------------- */
+@media (min-width: 1300px) {
+  .logoFull{
+    width: 20rem;
+    margin-bottom: 1rem;
+  }
+  .menu{
+    width: 25rem;
+    }
+    
+    .navLinks {
+      font-size: 4rem;
+      padding: 0rem 1rem 0rem 2.5rem;
+      margin-bottom: 1.1rem;
+    }
+    .navFollow{
+    font-size: 2.5rem;
+  }
+  .appContainer{
+    margin-left: 25rem;
+  }
+  .heroText{
+    font-size: 9rem;
+  }
+}
+/* extra extra large */
+@media only screen and (min-width: 1800px) {
+  .heroText{
+    font-size: 12rem;
+  }
+
 }

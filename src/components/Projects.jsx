@@ -1,6 +1,7 @@
 import React from 'react'
 import buyMeCoffee from '../assets/buyMeCoffee.png'
 import jjjpainting from '../assets/jjjpainting.png'
+import comingSoon from '../assets/comingSoon.png'
 import { SiReact, SiSolidity, SiTailwindcss, SiGithub } from "react-icons/si";
 
 
@@ -8,7 +9,7 @@ import { SiReact, SiSolidity, SiTailwindcss, SiGithub } from "react-icons/si";
 const Projects = () => {
   return (
     <div id='projects' className='flex flex-col justify-center items-center projectContainer'>
-      <h1 className='sectionHeading '>LATEST WORK</h1>
+      <h1 className='sectionHeading bg-neutral-300'>LATEST WORK</h1>
       <div className='flex flex-col sm:flex-row justify-normal w-full'>
         <a href='https://jjjpainting.com/' target='_blank' className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
           <img
@@ -21,6 +22,13 @@ const Projects = () => {
           <img
             src={buyMeCoffee}
             alt="Coffee themed website"
+            className='w-full'
+          />
+        </a>
+        <a className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
+          <img
+            src={comingSoon}
+            alt="More Coming Soon Stay Tuned!"
             className='w-full'
           />
         </a>
