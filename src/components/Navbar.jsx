@@ -10,8 +10,17 @@ const Navbar = () => {
     <div className='fixed flex items-start left-0 bg-black h-screen z-50 nav'>
       <ul className="menu px-0">
         <div className='flex justify-center mt-2 w-full'>
-        <img src={logo} alt="Tariq Lashley Logo" className='logo w-12'/>
-        <img src={logoFull} alt="Tariq Lashley Logo" className='logoFull'/>
+          <img src={logo} alt="Tariq Lashley Logo" className='logo w-12' />
+
+          <div className='logoFull flex items-center'>
+            <img src={logo} alt="Tariq Lashley Logo" className='bigLogo' />
+
+            <div className='flex flex-col justify-center w-fit h-full'>
+              <h2 className='navFirstname text-white pt-3'>TARIQ</h2>
+              <h2 className='text-4xl mx-auto navLastname'>LASHLEY</h2>
+            </div>
+
+          </div>
 
         </div>
         <li className='mt-4 w-full lg:w-fit'>

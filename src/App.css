@@ -218,7 +218,7 @@ html {
  }
  .logoFull{
   display: flex;
-  padding: 1.5rem;
+  padding: 0.5rem;
  }
  .navLinks{
   display: flex;
@@ -247,6 +247,18 @@ html {
 }
 .btn-error{
   margin-top: 2rem !important;
+}
+.bigLogo{
+  width: 5rem;
+  margin-right: 0.5rem;
+}
+.navFirstname{
+  font-size: 4rem;
+  margin-top: 0.5rem;
+
+}
+.navLastname{
+  font-size: 2rem;
 }
 }
 
