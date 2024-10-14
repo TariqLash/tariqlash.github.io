@@ -1,4 +1,5 @@
 import React from 'react'
+import lockedin from '../assets/lockedin.png'
 import buyMeCoffee from '../assets/buyMeCoffee.png'
 import jjjpainting from '../assets/jjjpainting.png'
 import comingSoon from '../assets/comingSoon.png'
@@ -11,6 +12,13 @@ const Projects = () => {
     <div id='projects' className='flex flex-col justify-center items-center projectContainer'>
       <h1 className='sectionHeading bg-neutral-300'>LATEST WORK</h1>
       <div className='flex flex-col sm:flex-row justify-normal w-full'>
+      <a href='https://locked-in-rouge.vercel.app/' target='_blank' className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
+          <img
+            src={lockedin}
+            alt="Coffee themed website"
+            className='w-full'
+          />
+        </a>
         <a href='https://jjjpainting.com/' target='_blank' className='cursor-pointer w-full md:w-1/3 2xl:w-1/4'>
           <img
             src={jjjpainting}

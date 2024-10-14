@@ -41,7 +41,7 @@ const Form = () => {
           <input id='email' name='email' type="email" placeholder="Email" className="input input-bordered w-full roboto" />
           <h1 className='text-xl'>Message</h1>
 
-          <textarea id='message' name='message' className="textarea textarea-bordered h-40 sm:h-56 roboto" placeholder="Message"></textarea>
+          <textarea id='message' name='message' className="textarea textarea-bordered h-40 sm:h-56 roboto text-lg" placeholder="Message"></textarea>
 
           <input type="submit" className='btn btn-outline btn-error w-1/2 mx-auto text-xl' value="Submit" />
         </div>
