@@ -28,7 +28,8 @@ const Form = () => {
 
   return (
     <div className='formScreen h-fit'>
-      <div className="card bg-base-300 w-full shadow-xl justify-center formCard mx-auto rounded-none md:rounded-xl md:mb-12">
+      <h1 className='w-full text-center text-3xl mb-3'>Contact Me</h1>
+      <div className="card bg-base-300 shadow-xl justify-center formCard mx-auto rounded-none md:rounded-xl md:mb-12">
         
         
 

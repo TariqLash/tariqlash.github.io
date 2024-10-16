@@ -10,7 +10,7 @@ const Projects = () => {
       {/* LockedIn */}
       <div className="card lg:card-side glass shadow-xl projectCard">
         <figure>
-          <a href="https://locked-jl4m3tphe-tariqs-projects-8a153120.vercel.app/">
+          <a href="https://locked-in-rouge.vercel.app/">
           <img
             src={lockedInMockup}
             alt="Album" />
@@ -20,7 +20,7 @@ const Projects = () => {
           <h2 className="card-title">Locked-In</h2>
           <p>A habit tracker app that uses a heatmap to visualize consistency, helping users build and maintain routines.</p>
           <div className="card-actions justify-end">
-            <a href="https://locked-jl4m3tphe-tariqs-projects-8a153120.vercel.app/">
+            <a href="https://locked-in-rouge.vercel.app/">
             <button className="btn justify-between px-3 btn-primary btn-outline mt-3">Website <Globe/></button>
             </a>
             {/* <button className="btn justify-between px-3 btn-primary ml-3">Demo <PlayIcon /></button> */}
