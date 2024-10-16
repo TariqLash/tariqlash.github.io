@@ -1,39 +1,13 @@
-import React from 'react';
-import avatar from '../assets/avatar.jpg';
-import { IoIosArrowDown } from "react-icons/io";
-
-
+import React from 'react'
 
 const Hero = () => {
     return (
-        <div id='home' className="flex flex-col justify-center
-        xl:h-screen p-8 text-white landing">
-            <div className=''>
-                <div className="">
-                    <p className='heroText'>
-                        CREATIVE WEBSITE DEVELOPER FOCUSED ON <span className='heroSpan'>BLOCKCHAIN</span> SOLUTIONS
-                    </p>
-                </div>
+        <div className='heroScreen roboto-regular'>
+            <div className='flex justify-center items-center h-full w-full'>
+                <h1 className='heroText roboto-bold text-center'>I Build Digital Solutions</h1>
             </div>
+
         </div>
-
-        // <div
-        //     className="hero h-screen">
-        //     <div className="hero-overlay bg-opacity-60"></div>
-        //     <div className="hero-content text-neutral-content text-center">
-        //         <div className="flex flex-col">
-        //             <div className="mx-auto mb-5">
-        //                     <img className='rounded-full size-56' src={avatar} />
-        //             </div>
-        //             <h1 className="sectionHeading mb-5 text-6xl xl:text-8xl font-bold">Hi, I'm Tariq</h1>
-
-        //             <p className="mb-5 px-8 text-xl max-w-xl roboto">
-        //                 A web developer passionate about creating innovative digital solutions that make a difference. Let’s build something great together!
-        //             </p>
-        //             <button className="btn btn-outline btn-primary border-0 rounded-lg text-5xl"><IoIosArrowDown /></button>
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
 

@@ -1,83 +1,45 @@
 import React from 'react'
-import logo from '../assets/logo.png';
-import logoFull from '../assets/logoFull.png';
-
-import { House, CircleUserRound, GalleryVerticalEnd, Send, CircleDollarSign, Linkedin, Github } from 'lucide-react';
-
-
+import logo from "../assets/logo.png"
 const Navbar = () => {
   return (
-    <div className='fixed flex items-start left-0 bg-black h-screen z-50 nav'>
-      <ul className="menu px-0">
-        <div className='flex justify-center mt-2 w-full'>
-          <img src={logo} alt="Tariq Lashley Logo" className='logo w-12' />
-
-          <div className='logoFull flex items-center'>
-            <img src={logo} alt="Tariq Lashley Logo" className='bigLogo' />
-
-            <div className='flex flex-col justify-center w-fit h-full'>
-              <h2 className='navFirstname text-white pt-3'>TARIQ</h2>
-              <h2 className='text-4xl mx-auto navLastname'>LASHLEY</h2>
-            </div>
-
-          </div>
-
-        </div>
-        <li className='mt-4 w-full lg:w-fit'>
-          <a href='#home' className='text-7xl navEffect navLinks'>
-            HOME
-          </a>
-          <a href='#home' className='navEffect navIcons'>            
-          <House className='navIcon'/></a>
-        </li>
-        {/* <li className='mt-4 w-full lg:w-fit'>
-          <a href='#about' className='text-7xl navEffect navLinks'>
-           ABOUT
-          </a>
-          <a href='#about' className='navEffect navIcons'><CircleUserRound className='navIcon'/></a>
-        </li> */}
-        <li className='mt-4 w-full lg:w-fit'>
-          <a href='#projects' className='text-7xl navEffect navLinks'>
-           WORK
-          </a>
-          <a href='#projects' className='navEffect navIcons'><GalleryVerticalEnd className='navIcon'/></a>
-        </li>
-        {/* <li className='mt-4 w-full lg:w-fit'>
-          <a href='#pricing' className='text-7xl navEffect navLinks'>
-           PRICING
-          </a>
-          <a href='#pricing' className='navEffect navIcons'><CircleDollarSign className='navIcon'/></a>
-        </li> */}
-        <li className='mt-4 w-full lg:w-fit'>
-          <a href='#contact' className='text-7xl navEffect navLinks'>
-           CONTACT
-          </a>
-          <a href='#contact' className='navEffect navIcons'><Send className='navIcon'/></a>
-        </li>
-        
-        <h2 className='mt-16 mb-8 redFont cursor-default navLinks navFollow'>FOLLOW:</h2>
-        <a href='https://www.linkedin.com/in/tariqlashley' target="_blank" className='text-7xl navLinks'>
-          <Linkedin className='followLinks redFont' />
-        </a>
-        <a href='https://github.com/TariqLash' target="_blank" className='text-7xl navLinks'>
-          <Github className='followLinks redFont' />
-        </a>
-        
-
-        <li className='mt-4 w-full'>
-          
-        <a  href='https://github.com/TariqLash' target="_blank" className='navEffect navIcons'><Github className='navIcon redFont'/></a>
-        <a href='https://www.linkedin.com/in/tariqlashley' target="_blank" className='navIcons'><Linkedin className='navIcon redFont'/></a>
-        </li>
-        {/* <li className='mt-4 w-full'>
-          <a className='text-7xl navEffect navLinks'>
-           Github
-          </a>
-          <a  href='https://github.com/TariqLash' target="_blank" className='navEffect navIcons'><Github className='navIcon redFont'/></a>
-        </li> */}
-      </ul>
+    <div className="absolute navbar transparent flex justify-between px-5 md:px-16 pmarker pt-5">
+      <div>
+      <a href='/' className="text-3xl flex items-center"><img src={logo} alt="" className='w-14 mr-2'/> Tariq</a>
+      {/* <a href='/' className="text-xl"><img src={tariqName} alt="" /></a> */}
+      </div>
+      <div>
+        <label className="flex cursor-pointer gap-3 items-center">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <input type="checkbox" value="light" className="toggle theme-controller"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <path
+              d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+          </svg>
+        </label>
+      </div>
     </div>
-  )
+)
 }
 
 export default Navbar

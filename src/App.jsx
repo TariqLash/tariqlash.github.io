@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='vt323 appContainer'>
+    <div className='roboto-regular appContainer'>
       <Navbar />
       <Hero />
       <Projects />
