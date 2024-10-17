@@ -62,7 +62,7 @@ const Projects = () => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">Buy Me A Coffee</h2>
-          <p>A blockchain app for making small donations and sending messages to creators, built on a test net.</p>
+          <p>A blockchain app for making small donations and sending messages to creators, built on Sepolia test net.</p>
           <div className="card-actions justify-end">
             <a href="https://coffee-app888.netlify.app/">
             <button className="btn justify-between px-3 btn-primary btn-outline mt-3">Website <Globe/></button>
