@@ -6,9 +6,9 @@ import buyMeCoffeeMockup from "../assets/buyMeCoffeeMockup.png"
 import { Globe, Play, PlayIcon } from 'lucide-react'
 const Projects = () => {
   return (
-    <div className='projectScreen flex flex-col justify-center items-center mx-auto rounded-xl'>
+    <div id='projects' className='projectScreen flex flex-col justify-center items-center mx-auto rounded-xl'>
       {/* LockedIn */}
-      <div className="card lg:card-side glass shadow-xl projectCard mb-24 lg:mb-44">
+      <div  className="card lg:card-side glass shadow-xl projectCard my-12 lg:mb-44">
         <figure>
           <a href="https://locked-in-rouge.vercel.app/">
           <img
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>        
       </div>
       {/* JJJPainting */}
-      <div className="card lg:card-side glass shadow-xl projectCard mb-24 lg:mb-44">
+      <div className="card lg:card-side glass shadow-xl projectCard my-12 lg:mb-44">
         <figure>
           <a href="https://jjjpainting.com">
           <img
@@ -51,7 +51,7 @@ const Projects = () => {
       </div>
 {/* Buy Me a Coffee */}
 {/* JJJPainting */}
-<div className="card lg:card-side glass shadow-xl projectCard mb-24 lg:mb-44">
+<div className="card lg:card-side glass shadow-xl projectCard my-12 lg:mb-44">
         <figure>
           <a href="https://coffee-app888.netlify.app/">
           <img
