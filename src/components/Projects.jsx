@@ -21,7 +21,7 @@ const Projects = () => {
           <h2 className="card-title">Finto</h2>
           <p>A finance applications that allows you to sort and visualize transaction dat.</p>
           <div className="card-actions justify-end">
-            <a href="https://locked-in-rouge.vercel.app/">
+          <a href="https://personal-finance-five-mocha.vercel.app/">
             <button className="btn justify-between px-3 btn-primary btn-outline mt-3">Website <Globe/></button>
             </a>
             {/* <button className="btn justify-between px-3 btn-primary ml-3">Demo <PlayIcon /></button> */}
