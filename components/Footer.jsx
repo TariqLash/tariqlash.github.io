@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
             </div>
         </div>
-        <div className='  col-span-2 text-center lg:text-left font-bold'>
+        <div className='col-span-2 text-center lg:text-left font-bold'>
         <h1 className='playfair text-4xl lg:text-6xl mb-12'>If you like what you see, let's <span className='bg-red-500/50'>work together</span></h1>
         <a href="mailto:tariqlashley@gmail.com">
           <Button className="rounded-none p-6 md:p-8 font-bold text-md md:mb-0 mb-8">EMAIL ME</Button>

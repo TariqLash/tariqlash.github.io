@@ -5,7 +5,7 @@ import { ArrowDown } from 'lucide-react';
 const Hero = () => {
   return (
     <div className='h-screen flex flex-col items-center justify-center hero' >
-      <div className='mb-40'>
+      <div className='mb-80 md:mb-40'>
         
         <div className='flex flex-col items-center text-sm md:text-lg mb-5'>
           <p>Tariq Lashley</p>
