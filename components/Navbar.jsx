@@ -22,7 +22,9 @@ const Navbar = () => {
 
   return (
     <nav className='flex items-center justify-between navbar bg-[#f6f3f2]/95 p-5 px-7 font-bold'>
+      <a href="/">
       <img src="locked.png" alt="logo" width={60} height={60} />
+      </a>
       <div className='hidden md:flex'>
         <ul className='flex justify-around space-x-10 items-center text-sm'>
           <li className='opacity-50 hover:opacity-100 transition'><a href="">WORK</a></li>

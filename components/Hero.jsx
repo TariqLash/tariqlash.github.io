@@ -11,7 +11,7 @@ const Hero = () => {
           <p>Tariq Lashley</p>
           <p className='text-muted-foreground'>Full-Stack Developer</p>
         </div>
-        <div className='playfair flex flex-col items-center text-4xl lg:text-8xl text-center'>
+        <div className='playfair flex flex-col items-center text-4xl md:text-6xl lg:text-8xl text-center'>
           <p>I build web apps</p>
           <p>that solve real world</p>
           <span className='bg-red-500/50'>problems</span>
