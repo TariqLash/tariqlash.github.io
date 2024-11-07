@@ -13,6 +13,7 @@ import {
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react';
 import { useState } from 'react';
+import { Badge } from "@/components/ui/badge"
 
 
 const Navbar = () => {
@@ -22,8 +23,10 @@ const Navbar = () => {
 
   return (
     <nav className='flex items-center justify-between navbar bg-[#f6f3f2]/95 p-5 px-7 font-bold'>
-      <a href="/">
+      <a href="/" className='flex items-center'>
       <img src="locked.png" alt="logo" width={60} height={60} />
+      <Badge variant="warning" className="h-8 ml-3">Page in Development</Badge>
+
       </a>
       <div className='hidden md:flex'>
         <ul className='flex justify-around space-x-10 items-center text-sm'>
