@@ -23,8 +23,8 @@ const Work = () => {
     <div id='work'>
       <h1 className='mx-auto w-fit pt-6'>Selected Projects</h1>
       <h1 className='mx-auto w-fit text-muted-foreground'>2023-2024</h1>
-      <div className='grid grid-cols-1 lg:grid-cols-2 p-14 pt-8 gap-8 gap-y-16' >
-        <div>
+      <div className='grid grid-cols-1 lg:grid-cols-2 p-4 md:p-14 pt-8 gap-8 gap-y-16' >
+        <div className='mb-12 md:mb-0'>
           <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
             <Image
               src="/finto1.png"
@@ -35,15 +35,15 @@ const Work = () => {
           <div>
 
 
-            <h1 className='playfair text-4xl mt-8 '>Finto</h1>
-            <p className='text-muted-foreground text-lg mt-4'>A finance applications that allows you to sort and visualize transaction data.
+            <h1 className='playfair text-4xl mt-4 md:mt-8 '>Finto</h1>
+            <p className='text-muted-foreground text-sm md:text-lg mt-2 md:mt-4'>A finance applications that allows you to sort and visualize transaction data.
             </p>
             <div className='mt-4 flex justify-between items-center'>
               <div>
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/75 hover:text-black">
-                      <SiNextdotjs className="size-9" />
+                      <SiNextdotjs className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>Nextjs</p>
@@ -51,7 +51,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiHono className="size-9" />
+                      <SiHono className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>Honojs</p>
@@ -59,7 +59,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiDrizzle className="size-9" />
+                      <SiDrizzle className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>Drizzle</p>
@@ -67,7 +67,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiClerk className="size-9" />
+                      <SiClerk className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>Clerk</p>
@@ -105,7 +105,7 @@ const Work = () => {
 
           </div>
         </div>
-        <div>
+        <div className='mb-12 md:mb-0'>
           <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
             <Image
               src="/jjjpainting.png"
@@ -116,15 +116,15 @@ const Work = () => {
           <div>
 
 
-            <h1 className='playfair text-4xl mt-8 '>JJJ-Painting</h1>
-            <p className='text-muted-foreground text-lg mt-4'>A landing page for a Saskatchewan-based painting company, showcasing their services.
+            <h1 className='playfair text-4xl mt-4 md:mt-8 '>JJJ-Painting</h1>
+            <p className='text-muted-foreground text-sm md:text-lg mt-2 md:mt-4'>A landing page for a Saskatchewan-based painting company, showcasing their services.
             </p>
             <div className='mt-4 flex justify-between items-center'>
               <div>
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiReact className="size-9" />
+                      <SiReact className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>React</p>
@@ -132,7 +132,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiTailwindcss className="size-9" />
+                      <SiTailwindcss className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>TailwindCSS</p>
@@ -170,7 +170,7 @@ const Work = () => {
 
           </div>
         </div>
-        <div>
+        <div className=''>
           <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
             <Image
               src="/lockedin.png"
@@ -181,15 +181,15 @@ const Work = () => {
           <div>
 
 
-            <h1 className='playfair text-4xl mt-8 '>Locked-In</h1>
-            <p className='text-muted-foreground text-lg mt-4'>A habit tracker app that uses a heatmap to visualize consistency, helping users build and maintain routines.
+            <h1 className='playfair text-4xl mt-4 md:mt-8 '>Locked-In</h1>
+            <p className='text-muted-foreground text-sm md:text-lg mt-2 md:mt-4'>A habit tracker app that uses a heatmap to visualize consistency, helping users build and maintain routines.
             </p>
             <div className='mt-4 flex justify-between items-center'>
               <div>
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/75 hover:text-black">
-                      <SiNextdotjs className="size-9" />
+                      <SiNextdotjs className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>Nextjs</p>
@@ -197,7 +197,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiMongodb className="size-9" />
+                      <SiMongodb className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>MongoDB</p>
@@ -205,7 +205,7 @@ const Work = () => {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiTailwindcss className="size-9" />
+                      <SiTailwindcss className="size-6 md:size-9" />
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>TailwindCSS</p>
