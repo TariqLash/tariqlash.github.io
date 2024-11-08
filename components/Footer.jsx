@@ -9,15 +9,15 @@ const Footer = () => {
             <h1 className='text-sm md:text-lg font-semibold'>Tariq Lashley</h1>
             <p className='mt-1 text-sm md:text-lg text-muted-foreground'>Full Stack Developer</p>
             <div className='mt-3 flex'>
-            <a href="" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
+            <a href="https://www.linkedin.com/in/tariqlashley/" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiLinkedin className='size-6'/>
             
             </a>
-            <a href="" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
+            <a href="https://x.com/tariqlash" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiX className='size-6'/>
             
             </a>
-            <a href="" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
+            <a href="https://github.com/TariqLash" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiGithub className='size-6'/>
             
             </a>

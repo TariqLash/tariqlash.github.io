@@ -90,18 +90,13 @@ const Work = () => {
                   </DialogTrigger>
                   <DialogContent className="max-w-fit">
                     <DialogHeader>
-                      <DialogTitle>Finto</DialogTitle>
-                      <DialogDescription>
-                        Finance app of the future
-                      </DialogDescription>
+                      <DialogTitle></DialogTitle>
                     </DialogHeader>
-                    <iframe src="https://www.loom.com/embed/427491250971427b9e8b9dd38320d6ad?sid=c2e41224-ed1c-490a-84a9-f91da427dfc6" className="aspect-video dialogVideo"></iframe>
+                    <iframe src="https://www.loom.com/embed/0449cf8f1be24c379c309535e96f4529?sid=8b68ce8d-fbb6-49c4-a754-8eb1bfa4de8d" className="aspect-video dialogVideo"></iframe>
                   </DialogContent>
                 </Dialog>
               </div>
-
             </div>
-
 
           </div>
         </div>
@@ -155,16 +150,12 @@ const Work = () => {
                   </DialogTrigger>
                   <DialogContent className="max-w-fit">
                     <DialogHeader>
-                      <DialogTitle>JJJ-Painting</DialogTitle>
-                      <DialogDescription>
-                        Landing Page
-                      </DialogDescription>
+                      <DialogTitle></DialogTitle>
                     </DialogHeader>
-                    <iframe src="https://www.loom.com/embed/427491250971427b9e8b9dd38320d6ad?sid=c2e41224-ed1c-490a-84a9-f91da427dfc6" className="aspect-video dialogVideo"></iframe>
+                    <iframe src="https://www.loom.com/embed/4a040a00a37245848842758911c84c91?sid=c03a9596-82a4-4c0a-9604-154c16d4ec22" className="aspect-video dialogVideo"></iframe>
                   </DialogContent>
                 </Dialog>
               </div>
-
             </div>
 
 
@@ -217,7 +208,7 @@ const Work = () => {
                 <a href="https://github.com/TariqLash/locked-in">
                   <Button variant="outline">Code<Code /></Button>
                 </a>
-                <Dialog>
+                {/* <Dialog>
                   <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground 
                             shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2 
                             whitespace-nowrap text-sm font-medium transition-colors 
@@ -235,7 +226,7 @@ const Work = () => {
                     </DialogHeader>
                     <iframe src="https://www.loom.com/embed/427491250971427b9e8b9dd38320d6ad?sid=c2e41224-ed1c-490a-84a9-f91da427dfc6" className="aspect-video dialogVideo"></iframe>
                   </DialogContent>
-                </Dialog>
+                </Dialog> */}
               </div>
 
             </div>
