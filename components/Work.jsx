@@ -21,7 +21,7 @@ import { SiNextdotjs, SiHono, SiDrizzle, SiClerk, SiReact, SiTailwindcss, SiMong
 const Work = () => {
   return (
     <div id='work'>
-      <h1 className='mx-auto w-fit pt-6'>Selected Projects</h1>
+      <h1 className='mx-auto w-fit pt-16'>Selected Projects</h1>
       <h1 className='mx-auto w-fit text-muted-foreground'>2023-2024</h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 p-4 md:p-14 pt-8 gap-8 gap-y-16' >
         <div className='mb-12 md:mb-0'>
