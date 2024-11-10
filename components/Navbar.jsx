@@ -1,26 +1,17 @@
 "use client"
-
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-import { Separator } from './ui/separator'
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 import { Menu } from 'lucide-react';
-import { useState } from 'react';
 import { Badge } from "@/components/ui/badge"
 
 
 const Navbar = () => {
-
-  const [openSheet, setOpenSheet] = useState(false);
-
-
   return (
     <nav className='flex items-center justify-between navbar bg-[#f6f3f2]/95 p-5 px-7 font-bold'>
       <a href="/" className='flex items-center'>
@@ -30,7 +21,7 @@ const Navbar = () => {
       </a>
       <div className='hidden md:flex'>
         <ul className='flex justify-around space-x-10 items-center text-sm'>
-          <li className='opacity-50 hover:opacity-100 transition'><a href="">WORK</a></li>
+          <li className='opacity-50 hover:opacity-100 transition'><a href="#work">WORK</a></li>
           <li className='opacity-50 hover:opacity-100 transition'><a href="">ABOUT</a></li>
           <li className='opacity-50 hover:opacity-100 transition'><a href="/resume.pdf" target='blank'>RESUME</a></li>
           <a href="mailto:tariqlashley@gmail.com">
@@ -39,38 +30,22 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='flex md:hidden'>
-
-      <Sheet open={openSheet} onOpenChange={setOpenSheet}>
-        <SheetTrigger>   
-           <Menu  className='size-8'/>
-        </SheetTrigger>
-        <SheetTitle></SheetTitle>
-
-        <SheetContent onCloseAutoFocus={event => event.preventDefault()}>
-          
-        <div className='text-2xl my-4 mt-10'>
-          <a href="#work" onClick={() => {setOpenSheet(false)}}>
-            WORK
-          </a>
-        </div>
-        <Separator/>
-        <div className='text-2xl my-4'>
-          <a href="#work" onClick={() => {setOpenSheet(false)}}>
-            ABOUT
-          </a>
-        </div>
-          <Separator/>
-          <div className='text-2xl my-4'>
-          <a href="/resume.pdf" target='blank' onClick={() => {setOpenSheet(false)}}>
-          RESUME
-          </a>
-        </div>
-          <Separator/>
-          <a href="mailto:tariqlashley@gmail.com">
-            <Button className="rounded-none p-6 font-bold text-md mt-4 w-full text-center h-14">EMAIL ME</Button>
-          </a>
-        </SheetContent>
-      </Sheet>
+      <DropdownMenu>
+  <DropdownMenuTrigger>
+    <Menu  className='size-8'/>
+  </DropdownMenuTrigger>
+  <DropdownMenuContent className="mr-3" onCloseAutoFocus={event => event.preventDefault()}>
+    <DropdownMenuItem><a href="#work">WORK</a></DropdownMenuItem>
+    <DropdownMenuItem><a href="#work">ABOUT</a></DropdownMenuItem>
+    <DropdownMenuItem><a href="/resume.pdf" target='blank'>RESUME</a></DropdownMenuItem>
+    <DropdownMenuItem>
+      <a href="mailto:tariqlashley@gmail.com">
+        EMAIL
+      </a>
+    </DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
+      
       </div>
     </nav>
   )
