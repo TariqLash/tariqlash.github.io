@@ -16,9 +16,6 @@ const Hero = () => {
           <p>that solve real world</p>
           <span className='bg-red-500/50'>problems</span>
         </div>
-        <div className='mt-5 flex justify-center text-md md:text-lg text-muted-foreground'>
-          <p>Backend, Frontend and everything in between</p>
-        </div>
       </div>
       <a href="#work" className='w-full flex justify-center absolute bottom-10'>
         <ArrowDown className='size-8 animate-bounce'/>

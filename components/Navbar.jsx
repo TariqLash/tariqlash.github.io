@@ -16,7 +16,6 @@ const Navbar = () => {
     <nav className='flex items-center justify-between bg-[#f6f3f2]/95 p-5 px-7 font-bold lg:p-8'>
       <a href="/" className='flex items-center'>
       <img src="locked.png" alt="logo" width={60} height={60} />
-      <Badge variant="warning" className="h-8 ml-3">Page in Development</Badge>
 
       </a>
       <div className='hidden md:flex'>

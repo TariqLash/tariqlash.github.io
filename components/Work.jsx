@@ -22,8 +22,62 @@ const Work = () => {
   return (
     <div id='work'>
       <h1 className='mx-auto w-fit pt-16'>Selected Projects</h1>
-      <h1 className='mx-auto w-fit text-muted-foreground'>2023-2024</h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 p-4 md:p-14 pt-8 gap-8 gap-y-16' >
+        <div className='mb-12 md:mb-0'>
+          <a href="https://locked-in-rouge.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
+              <Image
+                src="/lockedin.png"
+                alt="habit tracked dashboard"
+                fill
+              />
+            </div>
+          </a>
+          <div>
+
+
+            <h1 className='playfair text-4xl mt-4 md:mt-8 '>Locked-In</h1>
+            <p className='text-muted-foreground text-sm md:text-lg mt-2 md:mt-4'>A habit tracker app that uses a heatmap to visualize consistency, helping users build and maintain routines.
+            </p>
+            <div className='mt-4 flex justify-between items-center'>
+              <div>
+                <TooltipProvider delayDuration={100}>
+                  <Tooltip>
+                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/75 hover:text-black">
+                      <SiNextdotjs className="size-6 md:size-9" />
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>Nextjs</p>
+                    </TooltipContent>
+                  </Tooltip>
+                  <Tooltip>
+                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
+                      <SiMongodb className="size-6 md:size-9" />
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>MongoDB</p>
+                    </TooltipContent>
+                  </Tooltip>
+                  <Tooltip>
+                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
+                      <SiTailwindcss className="size-6 md:size-9" />
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>TailwindCSS</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
+              <div>
+                <a href="https://github.com/TariqLash/locked-in">
+                  <Button variant="outline">Code<Code /></Button>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
         <div className='mb-12 md:mb-0'>
           <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
             <Image
@@ -80,11 +134,11 @@ const Work = () => {
                   <Button variant="outline">Code<Code /></Button>
                 </a>
                 <Dialog>
-                  <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground 
-                            shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2 
-                            whitespace-nowrap text-sm font-medium transition-colors 
-                            focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring 
-                            disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none 
+                  <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground
+                            shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2
+                            whitespace-nowrap text-sm font-medium transition-colors
+                            focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring
+                            disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none
                             [&_svg]:size-4 [&_svg]:shrink-0 ml-2">
                     Demo<Play />
                   </DialogTrigger>
@@ -100,7 +154,7 @@ const Work = () => {
 
           </div>
         </div>
-        <div className='mb-12 md:mb-0'>
+        <div className=''>
           <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
             <Image
               src="/jjjpainting.png"
@@ -140,11 +194,11 @@ const Work = () => {
                   <Button variant="outline">Code<Code /></Button>
                 </a>
                 <Dialog>
-                  <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground 
-                            shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2 
-                            whitespace-nowrap text-sm font-medium transition-colors 
-                            focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring 
-                            disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none 
+                  <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground
+                            shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2
+                            whitespace-nowrap text-sm font-medium transition-colors
+                            focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring
+                            disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none
                             [&_svg]:size-4 [&_svg]:shrink-0 ml-2">
                     Demo<Play />
                   </DialogTrigger>
@@ -156,79 +210,6 @@ const Work = () => {
                   </DialogContent>
                 </Dialog>
               </div>
-            </div>
-
-
-          </div>
-        </div>
-        <div className=''>
-          <div className='relative zoom-img aspect-4/3 w-full flex justify-end'>
-            <Image
-              src="/lockedin.png"
-              alt="habit tracked dashboard"
-              fill
-            />
-          </div>
-          <div>
-
-
-            <h1 className='playfair text-4xl mt-4 md:mt-8 '>Locked-In</h1>
-            <p className='text-muted-foreground text-sm md:text-lg mt-2 md:mt-4'>A habit tracker app that uses a heatmap to visualize consistency, helping users build and maintain routines.
-            </p>
-            <div className='mt-4 flex justify-between items-center'>
-              <div>
-                <TooltipProvider delayDuration={100}>
-                  <Tooltip>
-                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/75 hover:text-black">
-                      <SiNextdotjs className="size-6 md:size-9" />
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>Nextjs</p>
-                    </TooltipContent>
-                  </Tooltip>
-                  <Tooltip>
-                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiMongodb className="size-6 md:size-9" />
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>MongoDB</p>
-                    </TooltipContent>
-                  </Tooltip>
-                  <Tooltip>
-                    <TooltipTrigger className="mr-2 lg:mr-4 text-black/60 hover:text-black">
-                      <SiTailwindcss className="size-6 md:size-9" />
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>TailwindCSS</p>
-                    </TooltipContent>
-                  </Tooltip>
-                </TooltipProvider>
-              </div>
-              <div>
-                <a href="https://github.com/TariqLash/locked-in">
-                  <Button variant="outline">Code<Code /></Button>
-                </a>
-                {/* <Dialog>
-                  <DialogTrigger className="h-9 px-4 py-2 bg-primary text-primary-foreground 
-                            shadow hover:bg-primary/90 inline-flex items-center justify-center gap-2 
-                            whitespace-nowrap text-sm font-medium transition-colors 
-                            focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring 
-                            disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none 
-                            [&_svg]:size-4 [&_svg]:shrink-0 ml-2">
-                    Demo<Play />
-                  </DialogTrigger>
-                  <DialogContent className="max-w-fit">
-                    <DialogHeader>
-                      <DialogTitle>Locked-In</DialogTitle>
-                      <DialogDescription>
-                        Habit Tracker
-                      </DialogDescription>
-                    </DialogHeader>
-                    <iframe src="https://www.loom.com/embed/427491250971427b9e8b9dd38320d6ad?sid=c2e41224-ed1c-490a-84a9-f91da427dfc6" className="aspect-video dialogVideo"></iframe>
-                  </DialogContent>
-                </Dialog> */}
-              </div>
-
             </div>
 
 
