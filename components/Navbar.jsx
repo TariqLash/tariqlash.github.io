@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       <div className='flex md:hidden'>
       <DropdownMenu>
-  <DropdownMenuTrigger>
+  <DropdownMenuTrigger suppressHydrationWarning>
     <Menu  className='size-8'/>
   </DropdownMenuTrigger>
   <DropdownMenuContent className="mr-3" onCloseAutoFocus={event => event.preventDefault()}>
@@ -38,7 +38,7 @@ const Navbar = () => {
     <DropdownMenuItem><a href="/about">ABOUT</a></DropdownMenuItem>
     <DropdownMenuItem><a href="/resume.pdf" target='blank'>RESUME</a></DropdownMenuItem>
     <DropdownMenuItem>
-      <a href="mailto:tariqlashley@gmail.com">
+      <a href="mailto:tariq.lashley@gmail.com">
         EMAIL
       </a>
     </DropdownMenuItem>

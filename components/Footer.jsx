@@ -11,15 +11,15 @@ const Footer = () => {
             <div className='mt-3 flex'>
             <a href="https://www.linkedin.com/in/tariqlashley/" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiLinkedin className='size-6'/>
-            
+
             </a>
             <a href="https://x.com/tariqlash" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiX className='size-6'/>
-            
+
             </a>
             <a href="https://github.com/TariqLash" className='mr-2 p-2 border opacity-70 hover:opacity-100 hover:border-2 hover:border-black transition'>
                     <SiGithub className='size-6'/>
-            
+
             </a>
             </div>
         </div>
